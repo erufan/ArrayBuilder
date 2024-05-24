@@ -20,23 +20,24 @@ The `ArrayBuilder` class is a TypeScript implementation of a dynamic array. It p
    ```typescript
    const array = new ArrayBuilder(10);
 
-Insert elements:
-TypeScript
+2.**Insert elements**:
+```TypeScript
 
 array.insert(3);
 array.insert(5);
-
-Remove an element:
-TypeScript
+```
+3.**Remove an element**:
+```TypeScript
 
 array.removeAt(1);
-
-Find the index of an element:
-TypeScript
+```
+4.**Find the index of an element**:
+```TypeScript
 
 array.indexOf(3); // Output: 0
-
-Print the array:
-TypeScript
+```
+5.**Print the array**::
+```TypeScript
 
 array.print(); // Output: 3
+```
